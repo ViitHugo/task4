@@ -1,0 +1,22 @@
+#div_nav_primary {
+    background-color: purple;
+}
+
+#div_nav_secundary {
+    background-color: #6f42c1;
+}
+
+form > input {
+    border: none;
+    width: 550px;
+}
+
+form > button {
+    border: none;
+    background-color: transparent;
+}
+
+#div_search_bar {
+    border: 2px solid black;
+    width: auto;
+}
