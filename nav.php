@@ -2,22 +2,34 @@
     <!-------------------------------------------------------------------------------------------------------------------------------->
     <!-------------------------------------------------------------------------------------------------------------------------------->
     <!-------------------------------------------------------------------------------------------------------------------------------->
+<body class="d-flex flex-column min-vh-100"> 
     <div id="div_nav_primary" class="text-light">
-    <nav id="nav_primary" class="container d-flex justify-content-between align-items-center fs-5"> <!-------------------- NAVEGAÇÃO PRIMÁRIA -->
+    <nav id="nav_primary" class="container-fluid px-5 d-flex justify-content-between align-items-center fs-5"> <!-------------------- NAVEGAÇÃO PRIMÁRIA -->
         
-        <div id="div_main_icon"><a href="../task4/">
-            <img src="img/main_icon_eneba_longed.png" class="img-fluid" alt="main icon eneba" width="120px" height="100px">
-        </a></div>
+        <!-- ideia: <div class="d-flex justify-content-start gap-5"> -->
+        <div id="div_main_icon">
+        <a href="../task4">
+            <img src="img/unnamed.png" class="img-fluid" alt="main icon eneba" width="150px" height="100px">
+        </a>
+        </div>
 
         <form id="form_search_bar" action="#" method="GET" class="d-flex justify-content-between"> <!-------------------------------------------- BARRA DE PESQUISA -->
             <input class="text-light" placeholder="Pesquise por jogos, gift-cards, licenças e mais...">
             <button class="btn bi bi-search"></button>
         </form>
+        <!-- ideia: </div> -->
 
-        <span><i class="bi bi-globe"></i> Idioma | XX</span>
-        <span><i class="bi bi-heart"></i></span>
-        <span><i class="bi bi-cart"></i></span>
-        <span><i class="bi bi-person"></i> Entrar / Registrar</span>
+        <div class="d-flex justify-content-end gap-4">
+            <button class="btn_nav_1 btn text-light bi bi-globe fs-5"></i> Idioma | XX</button>
+            <button class="btn_nav_1 btn text-light bi bi-heart fs-5"></i></button>
+            <button class="btn_nav_1 btn text-light bi bi-cart fs-5"></i></button>
+            
+            <div>
+                <button class="btn_nav_1 btn text-light bi bi-person fs-5"></i> Entrar</button>
+                <span>|</span>
+                <button class="btn_nav_1 btn text-light fs-5"></i>Registrar</button>
+            </div>
+        </div>
 
     </nav>
     </div>
@@ -29,16 +41,16 @@
     <div id="div_nav_secundary" class="text-light">
     <nav id="nav_secundary" class="container d-flex justify-content-between align-items-center"> <!---------------------------------------------- NAVEGAÇÃO SECUNDÁRIA -->
 
-        <button class="btn bi bi-list text-light"> Categorias</button>
+        <button class="btn_nav_2 btn bi bi-list text-light fs-5"> Categorias</button>
 
-        <button class="btn text-light">Cheap Games</button>
-        <button class="btn text-light">Windows Keys</button>
-        <button class="btn text-light">Random Keys</button>
-        <button class="btn text-light">Top Deals</button>
-        <button class="btn text-light">GOTY '25</button>
-        <button class="btn text-light">Valorant</button>
-        <button class="btn text-light">Roblox</button>
-        <button class="btn text-light">PUBG UC</button>
+        <button class="btn_nav_2 btn text-light fs-5">Cheap Games</button>
+        <button class="btn_nav_2 btn text-light fs-5">Windows Keys</button>
+        <button class="btn_nav_2 btn text-light fs-5">Random Keys</button>
+        <button class="btn_nav_2 btn text-light fs-5">Top Deals</button>
+        <button class="btn_nav_2 btn text-light fs-5">GOTY '25</button>
+        <button class="btn_nav_2 btn text-light fs-5">Valorant</button>
+        <button class="btn_nav_2 btn text-light fs-5">Roblox</button>
+        <button class="btn_nav_2 btn text-light fs-5">PUBG UC</button>
 
     </nav>
     </div>

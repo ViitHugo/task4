@@ -3,16 +3,33 @@
 #a29bfe */
 
 #div_nav_primary {
-    background-color: #7426f0;
+    background-color: #7326f0e8;
     padding-top: 0.75rem; padding-bottom: 0.75rem;
+    flex-shrink: 0;
+}
+
+.btn_nav_1, .btn_nav_2 {
+    padding: 3px 8px;
+    border: 3px solid transparent;
+    border-radius: 12px;}
+
+.btn_nav_1:hover, .btn_nav_2:hover {
+    background-color: #a29bfe80;
+    box-shadow: 0 0 30px #a29bfe;
+    transition: box-shadow 0.5s, border 0.5s, background-color 0.5s;
 }
 
 #div_nav_secundary {
     background-color: #6610f2;
+    border-bottom: 3px solid #a29bfe49;
+    flex-shrink: 0;
 }
 
-form > input {
+
+
+form > input, form > input:focus {
     border: none !important;
+    outline: none;
     background-color: transparent;
     height: 40px;
     width: 100%;
@@ -21,8 +38,10 @@ form > input {
 
 form > input::placeholder {
     color:white;
-    opacity: 50%;
+    opacity: 40%;
 }
+
+
 
 form > button {
     border: none;
@@ -35,6 +54,8 @@ form > button:hover {
     background-color: transparent;
 }
 
+
+
 #form_search_bar {
     align-items: center;
     border: 3px solid #6610f2;
@@ -44,16 +65,37 @@ form > button:hover {
     transition: box-shadow 0.3s, border 0.5s;
 }
 
-#form_search_bar:hover {
+#form_search_bar:hover, #form_search_bar:focus-within {
     border: 3px solid transparent;
     box-shadow: 0 0 30px #a29bfe;
     transition: box-shadow 0.5s, border 0.5s;
 }
 
-.img-fluid {
-    box-shadow: 0 0 100px #a29bfe;
+
+
+/* .hero {
+    background-image: url('../task4/img/9bc27292880429.5e569ff84e4d0.gif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+} */
+
+
+#btn_hero {
+    color: #ffffff;
+    background-color: #6710f25d;
+    border: 2px solid #4800bd;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #a29bfe;
+    padding: 5px 15px 9px 15px;
+    transition: color 0.4s, background-color 0.4s, border 0.4s, transform 0.4s, box-shadow 0.4s;
 }
 
-img {
+#btn_hero:hover {
+    color: #ffffff;
+    background-color: #6610f2;
+    border: 2px solid #a29bfe;
     box-shadow: 0 0 30px #a29bfe;
+    transform: scale(1.1);
+    transition: color 0.4s, background-color 0.4s, border 0.4s, transform 0.4s, box-shadow 0.4s;
 }
