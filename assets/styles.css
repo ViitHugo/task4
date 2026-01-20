@@ -51,6 +51,7 @@ form > button {
 
 form > button:hover {
     border: none;
+    padding: 0.5rem;
     background-color: transparent;
 }
 
@@ -96,6 +97,14 @@ form > button:hover {
     background-color: #6610f2;
     border: 2px solid #a29bfe;
     box-shadow: 0 0 30px #a29bfe;
+    padding: 5px 15px 9px 15px;
     transform: scale(1.1);
     transition: color 0.4s, background-color 0.4s, border 0.4s, transform 0.4s, box-shadow 0.4s;
+}
+
+
+
+.img-carousel-top {
+    height: 27.75rem;
+    object-fit: cover;
 }
