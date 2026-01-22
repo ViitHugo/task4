@@ -2,6 +2,8 @@
 #6f42c1
 #a29bfe */
 
+body { background-color: #000000; }
+
 #div_nav_primary {
     background-color: #7326f0e8;
     padding-top: 0.75rem; padding-bottom: 0.75rem;
@@ -24,6 +26,16 @@
     border-bottom: 3px solid #a29bfe49;
     flex-shrink: 0;
 }
+
+
+#div_subnav_catalog {
+    border-top: 3px solid #a29bfe49;
+    border-bottom: 3px solid #a29bfe49;
+}
+
+
+
+
 
 
 
@@ -102,9 +114,14 @@ form > button:hover {
     transition: color 0.4s, background-color 0.4s, border 0.4s, transform 0.4s, box-shadow 0.4s;
 }
 
+                      /* height: 27.75rem !important; */
+.img-carousel-sponsers { height: 25rem !important; object-fit: cover; width: 75%; margin-left: auto !important; margin-right: auto !important;}
+    #img-mojang-card { width: 100%; object-fit:unset; }
 
 
-.img-carousel-top {
-    height: 27.75rem;
-    object-fit: cover;
-}
+
+#container-steam-card     { background-color: #000000 !important; }
+#container-xbox-card      { background-color: #0f7c10 !important; }
+#container-mojang-card    { background-color: #000000 !important; }
+#container-microsoft-card { background-color: #000000 !important; } /* altere */
+

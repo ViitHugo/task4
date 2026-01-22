@@ -43,14 +43,14 @@
 
         <button class="btn_nav_2 btn bi bi-list text-light fs-5"> Categorias</button>
 
-        <button class="btn_nav_2 btn text-light fs-5">Cheap Games</button>
+        <button class="btn_nav_2 btn text-light fs-5">Ofertas do Mês</button>
+        <button class="btn_nav_2 btn text-light fs-5">Jogos Baratos</button>
         <button class="btn_nav_2 btn text-light fs-5">Windows Keys</button>
-        <button class="btn_nav_2 btn text-light fs-5">Random Keys</button>
-        <button class="btn_nav_2 btn text-light fs-5">Top Deals</button>
-        <button class="btn_nav_2 btn text-light fs-5">GOTY '25</button>
-        <button class="btn_nav_2 btn text-light fs-5">Valorant</button>
-        <button class="btn_nav_2 btn text-light fs-5">Roblox</button>
-        <button class="btn_nav_2 btn text-light fs-5">PUBG UC</button>
+        <button class="btn_nav_2 btn text-light fs-5">Grandes Esperados</button>
+        <button class="btn_nav_2 btn text-light fs-5">1º Lote</button>
+        <button class="btn_nav_2 btn text-light fs-5">Mais Comprados</button>
+        <span> | </span>
+        <button class="btn_nav_2 btn text-light fs-5">Promoção</button>
 
     </nav>
     </div>
