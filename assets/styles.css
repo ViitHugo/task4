@@ -6,7 +6,7 @@ body { background-color: #000000; }
 
 #div_nav_primary {
     background-color: #7326f0e8;
-    padding-top: 0.75rem; padding-bottom: 0.75rem;
+    padding-top: 1rem; padding-bottom: 0.9rem;
     flex-shrink: 0;
 }
 
@@ -71,7 +71,7 @@ form > button:hover {
 
 #form_search_bar {
     align-items: center;
-    border: 3px solid #6610f2;
+    border: 3px solid #4100aa;
     border-radius: 5px;
     height: auto;
     width: 39%;
@@ -116,12 +116,49 @@ form > button:hover {
 
                       /* height: 27.75rem !important; */
 .img-carousel-sponsers { height: 25rem !important; object-fit: cover; width: 75%; margin-left: auto !important; margin-right: auto !important;}
-    #img-mojang-card { width: 100%; object-fit:unset; }
+    #img-mojang-card, #img-dreamworks-card, #img-pichau-card, #img-playstation-card, #img-nintendo-switch-card { width: 100%; object-fit: unset; }
+    #img-xbox-card, #img-itunes-card { width: 100%; object-fit: cover; }
 
 
 
-#container-steam-card     { background-color: #000000 !important; }
-#container-xbox-card      { background-color: #0f7c10 !important; }
-#container-mojang-card    { background-color: #000000 !important; }
-#container-microsoft-card { background-color: #000000 !important; } /* altere */
+#container-steam-card           { background-color: #000000 !important; }
+#container-xbox-card            { background-color: #0f7c10 !important; }
+#container-nintendo-switch-card { background-color: #000000 !important; }
+#container-playstation-card     { background-color: #000000 !important; }
+#container-google-play-card     { background-color: #ffffff !important; }
+#container-itunes-card          { background-color: #ffffff !important; }
+#container-microsoft-card       { background-color: #000000 !important; }
+#container-mojang-card          { background-color: #000000 !important; }
+#container-pichau-card          { background-color: #000000 !important; }
+#container-dreamworks-card      { background-color: #000000 !important; }
 
+
+
+
+
+
+
+.carousel-control {
+    color: #7326f0c2;
+    font-size: 2rem;
+}
+
+.btn-subnav-catalog {
+    color: #6200ffa5;
+    font-size: 1.35rem;
+}
+
+.btn-scroll-subnav-catalog {
+    color: #6200ffd4;
+    font-size: 1.6rem;
+}
+
+.btn-subnav-catalog:hover, .btn-subnav-catalog:focus { color: #6200ff !important; }
+.btn-scroll-subnav-catalog:hover, .btn-scroll-subnav-catalog:focus { color: #6200ff !important; }
+
+#subnav_catalog {
+    overflow-x: auto; /* Permite rolagem horizontal */
+    /*                   Esconde a barra: */
+    scrollbar-width: none;    /* No FIREFOX */
+    -ms-overflow-style: none; /* IE e Edge antigo */
+}
