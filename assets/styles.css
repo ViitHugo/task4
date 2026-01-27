@@ -29,8 +29,13 @@ body { background-color: #000000; }
 
 
 #div_subnav_catalog {
-    border-top: 3px solid #a29bfe49;
-    border-bottom: 3px solid #a29bfe49;
+    border-top: 3px solid #6610f2;
+    border-bottom: 3px solid #6610f2;
+}
+
+#subnav_catalog {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -144,12 +149,12 @@ form > button:hover {
 }
 
 .btn-subnav-catalog {
-    color: #6200ffa5;
+    color: #bd94ff;
     font-size: 1.35rem;
 }
 
 .btn-scroll-subnav-catalog {
-    color: #6200ffd4;
+    color: #6200ff81;
     font-size: 1.6rem;
 }
 
@@ -161,4 +166,45 @@ form > button:hover {
     /*                   Esconde a barra: */
     scrollbar-width: none;    /* No FIREFOX */
     -ms-overflow-style: none; /* IE e Edge antigo */
+}
+
+
+
+.title-recommended {
+    padding: 2rem 0;
+    margin-bottom: 1rem;
+}
+
+
+
+.section-part-recommended {
+    align-items: center;
+    border: 3px solid #4100aa;
+    border-radius: 5px;
+    height: auto;
+    height: 30rem;
+}
+
+
+.btn-see-more {
+    color: #ffffff;
+    background-color: #6710f25d;
+    border: 2px solid #4800bd;
+    border-radius: 15px;
+    margin: 0 auto;
+    box-shadow: 0 0 30px #a29bfe;
+    padding: 9px 10px 9px 10px;
+    width: fit-content;
+    transition: color 0.4s, background-color 0.4s, border 0.4s, transform 0.4s, box-shadow 0.4s;
+}
+
+.btn-see-more:hover {
+    color: #ffffff;
+    background-color: #6610f2;
+    border: 2px solid #a29bfe;
+    box-shadow: 0 0 30px #a29bfe;
+    padding: 9px 10px 9px 10px;
+    transform: scale(1.1);
+    width: fit-content;
+    transition: color 0.4s, background-color 0.4s, border 0.4s, transform 0.4s, box-shadow 0.4s;
 }
