@@ -171,53 +171,70 @@
 <!------------------------------------------------------------------------------------------------------------------------------------->
 
 <div class="container text-light">
-<h2 class="title-recommended">Recomendações para você</h1>
+<h2 class="h2-title-recommended">Recomendações para você</h2>
 <div class="d-flex justify-content-between gap-5 text-light">
 
-  <div class="section-part-recommended bg-warning col">
+  <div class="section-part-recommended col">
     <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
-    <span class="bg-secondary d-flex flex-column text-center">Steam</span>
-    <div class="bg-danger d-flex flex-column px-2">
-      <span>Steam Wallet Gift Card - €5 EUR</span>
+    <span class="title-card-recommended d-flex flex-column text-center">Steam Wallet</span>
+    <div class="div-description-card d-flex flex-column">
+      <span>Gift Card - €5 EUR</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
       <span>Europa</span>
-      <span>Por</span>
-      <span>R$30,00</span>
+      <span>Por R$30,99</span>
       <button class="btn-see-more fs-5">Ver mais!</button>
     </div>
   </div>
 
-  <div class="section-part-recommended bg-warning col">
+  <div class="section-part-recommended col">
     <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
-    <span class="bg-secondary d-flex flex-column text-center">Roblox</span>  
-    <div class="bg-danger d-flex flex-column px-2">
-      <span>Roblox - 1000 Robux</span>
+    <span class="title-card-recommended d-flex flex-column text-center">Roblox</span>  
+    <div class="div-description-card d-flex flex-column">
+      <span>1000 Robux</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
       <span>Mundial</span>
-      <span>Por</span>
-      <span>R$60,00</span>
+      <span>Por R$59,99</span>
       <button class="btn-see-more fs-5">Ver mais!</button>
     </div>
   </div>
 
-  <div class="section-part-recommended bg-warning col">
+  <div class="section-part-recommended col">
     <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
-    <span class="bg-secondary d-flex flex-column text-center">Windows</span>
-    <div class="bg-danger d-flex flex-column px-2">
-      <span>Product Key - Windows 11 Home</span>
+    <span class="title-card-recommended d-flex flex-column text-center">Windows Product Key</span>
+    <div class="div-description-card d-flex flex-column">
+      <span>Windows 11 Home</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
       <span>Mundial</span>
-      <span>Por</span>
-      <span>R$120,00</span>
+      <span>Por R$120,98</span>
       <button class="btn-see-more fs-5">Ver mais!</button>
     </div>
   </div>
 
-  <div class="section-part-recommended bg-warning col">
+  <div class="section-part-recommended col">
     <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
-    <span class="bg-secondary d-flex flex-column text-center">Steam</span>  
-    <div class="bg-danger d-flex flex-column px-2">
-      <span>Discord - 3 Months (PRO)</span>
+    <span class="title-card-recommended d-flex flex-column text-center">Discord</span>  
+    <div class="div-description-card d-flex flex-column">
+      <span>3 Months (PRO)</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
       <span>Europa</span>
-      <span>Por</span>
-      <span>R$100,00</span>
+      <span>Por R$99,99</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Discord</span>  
+    <div class="div-description-card d-flex flex-column">
+      <span>6 Months (PRO)</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Europa</span>
+      <span>Por R$176,80</span>
       <button class="btn-see-more fs-5">Ver mais!</button>
     </div>
   </div>
@@ -226,18 +243,310 @@
 
 
 
-<h1 class="mt-5">Mais Vendidos</h1>
-
-
-<h1>Gift Cards de Apps Favoritos</h1>
-
-
-<h1>Ranking dos Melhores</h1>
 
 
 
-<h1>Categorias</h1>
+<h2 class="h2-title-recommended">Mais Vendidos</h2>
+<div class="d-flex justify-content-between gap-5 text-light">
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Steam Wallet</span>
+    <div class="div-description-card d-flex flex-column">
+      <span>Gift Card - €5 EUR</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Europa</span>
+      <span>Por R$30,99</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Roblox</span>  
+    <div class="div-description-card d-flex flex-column">
+      <span>1000 Robux</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Mundial</span>
+      <span>Por R$59,99</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Windows Product Key</span>
+    <div class="div-description-card d-flex flex-column">
+      <span>Windows 11 Home</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Mundial</span>
+      <span>Por R$120,98</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Discord</span>  
+    <div class="div-description-card d-flex flex-column">
+      <span>3 Months (PRO)</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Europa</span>
+      <span>Por R$99,99</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Discord</span>  
+    <div class="div-description-card d-flex flex-column">
+      <span>6 Months (PRO)</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Europa</span>
+      <span>Por R$176,80</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
 </div>
+
+
+
+
+
+<h2 class="h2-title-recommended">Gift Cards de Apps Favoritos</h2>
+<div class="d-flex justify-content-between gap-5 text-light">
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Steam Wallet</span>
+    <div class="div-description-card d-flex flex-column">
+      <span>Gift Card - €5 EUR</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Europa</span>
+      <span>Por R$30,99</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Roblox</span>  
+    <div class="div-description-card d-flex flex-column">
+      <span>1000 Robux</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Mundial</span>
+      <span>Por R$59,99</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Windows Product Key</span>
+    <div class="div-description-card d-flex flex-column">
+      <span>Windows 11 Home</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Mundial</span>
+      <span>Por R$120,98</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Discord</span>  
+    <div class="div-description-card d-flex flex-column">
+      <span>3 Months (PRO)</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Europa</span>
+      <span>Por R$99,99</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Discord</span>  
+    <div class="div-description-card d-flex flex-column">
+      <span>6 Months (PRO)</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Europa</span>
+      <span>Por R$176,80</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<h2 class="h2-title-recommended">Ranking dos Melhores</h2>
+<div class="d-flex justify-content-between gap-5 text-light">
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Steam Wallet</span>
+    <div class="div-description-card d-flex flex-column">
+      <span>Gift Card - €5 EUR</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Europa</span>
+      <span>Por R$30,99</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Roblox</span>  
+    <div class="div-description-card d-flex flex-column">
+      <span>1000 Robux</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Mundial</span>
+      <span>Por R$59,99</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Windows Product Key</span>
+    <div class="div-description-card d-flex flex-column">
+      <span>Windows 11 Home</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Mundial</span>
+      <span>Por R$120,98</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Discord</span>  
+    <div class="div-description-card d-flex flex-column">
+      <span>3 Months (PRO)</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Europa</span>
+      <span>Por R$99,99</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Discord</span>  
+    <div class="div-description-card d-flex flex-column">
+      <span>6 Months (PRO)</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Europa</span>
+      <span>Por R$176,80</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<h2 class="h2-title-recommended">Categorias</h2>
+<div class="d-flex justify-content-between gap-5 text-light">
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Steam Wallet</span>
+    <div class="div-description-card d-flex flex-column">
+      <span>Gift Card - €5 EUR</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Europa</span>
+      <span>Por R$30,99</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Roblox</span>  
+    <div class="div-description-card d-flex flex-column">
+      <span>1000 Robux</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Mundial</span>
+      <span>Por R$59,99</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Windows Product Key</span>
+    <div class="div-description-card d-flex flex-column">
+      <span>Windows 11 Home</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Mundial</span>
+      <span>Por R$120,98</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Discord</span>  
+    <div class="div-description-card d-flex flex-column">
+      <span>3 Months (PRO)</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Europa</span>
+      <span>Por R$99,99</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+
+  <div class="section-part-recommended col">
+    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
+    <span class="title-card-recommended d-flex flex-column text-center">Discord</span>  
+    <div class="div-description-card d-flex flex-column">
+      <span>6 Months (PRO)</span>
+    </div>
+    <div class="div-info-card d-flex flex-column">
+      <span>Europa</span>
+      <span>Por R$176,80</span>
+      <button class="btn-see-more fs-5">Ver mais!</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</div> <!-- DIV DO CONTAINER -->
 
 
 
