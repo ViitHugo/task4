@@ -2,7 +2,7 @@
 #6f42c1
 #a29bfe */
 
-body { background-color: #000000; }
+body { background-color: #121212; }
 
 #div_nav_primary {
     background-color: #7326f0e8;
@@ -123,7 +123,7 @@ form > button:hover {
 
                       /* height: 27.75rem !important; */
 .img-carousel-sponsers { height: 25rem !important; object-fit: cover; width: 75%; margin-left: auto !important; margin-right: auto !important;}
-    #img-mojang-card, #img-dreamworks-card, #img-pichau-card, #img-playstation-card, #img-nintendo-switch-card { width: 100%; object-fit: unset; }
+    #img-mojang-card, #img-dreamworks-card, #img-playstation-card, #img-nintendo-switch-card { width: 100%; object-fit: unset; }
     #img-xbox-card, #img-itunes-card { width: 100%; object-fit: cover; }
 
 
@@ -172,14 +172,26 @@ form > button:hover {
 
 
 
-.h2-title-recommended {
+.h2-title-recommended,
+.h2-title-bestseller,
+.h2-title-favourites-giftcards {
     margin-top: 2rem; margin-bottom: 1.75rem;
     padding: 0;
 }
 
+.btn-see-more {
+    margin-top: 3rem; margin-bottom: 0.75;
+    padding: 0;
+    font-size: 1.2rem !important;
+    color: #a29bfe;
+    font-weight: bold;
+}
 
 
-.section-part-recommended {
+
+.section-part-recommended,
+.section-part-bestseller,
+.section-part-favourites-giftcards {
     align-items: center;
     border: 3px solid #4100aa;
     border-radius: 5px;
@@ -187,13 +199,17 @@ form > button:hover {
     transition: box-shadow 0.5s, border 0.5s;
 }
 
-.section-part-recommended:hover, .section-part-recommended:focus-within {
+.section-part-recommended:hover, .section-part-recommended:focus-within,
+.section-part-bestseller:hover, .section-part-bestseller:focus-within,
+.section-part-favourites-giftcards:hover, .section-part-favourites-giftcards:focus-within {
     border: 3px solid #4100aa;
-    box-shadow: 0 0 30px #a29bfe;
-    transition: box-shadow 0.5s, border 0.5s;
+    box-shadow: 0 0 35px #a29bfe;
+    transition: box-shadow 0.2s, border 0.5s;
 }
 
-.title-card-recommended {
+.title-card-recommended,
+.title-card-bestseller,
+.title-favourites-giftcards {
     background-color: #4800bd;
 }
 
@@ -225,7 +241,7 @@ form > button:hover {
 
 
 
-.btn-see-more {
+.btn-iwant-it {
     color: #ffffff;
     background-color: #6710f25d;
     border: 2px solid #4800bd;
@@ -237,7 +253,7 @@ form > button:hover {
     transition: color 0.4s, background-color 0.4s, border 0.4s, transform 0.4s, box-shadow 0.4s;
 }
 
-.btn-see-more:hover {
+.btn-iwant-it:hover {
     color: #ffffff;
     background-color: #6610f2;
     border: 2px solid #a29bfe;
