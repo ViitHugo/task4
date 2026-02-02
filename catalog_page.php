@@ -69,18 +69,6 @@
     <span class="carousel-control bi bi-caret-right-fill" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-
-  <!--
-                      ///////////////ALTERNATIVA//////////////////
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselTopSponsers" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon text-danger" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselTopSponsers" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-  -->
 </div>
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
@@ -245,11 +233,9 @@
   </div>
 </div>
 
-
-
-
-
-
+<!------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------->
 
 <div class="d-flex justify-content-between">
   <h2 class="h2-title-bestseller">Mais Vendidos</h2>
@@ -324,9 +310,9 @@
   </div>
 </div>
 
-
-
-
+<!------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------->
 
 <div class="d-flex justify-content-between">
   <h2 class="h2-title-favourites-giftcards">Gift Cards de Apps Favoritos</h2>
@@ -401,92 +387,66 @@
   </div>
 </div>
 
+<!------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------->
 
 
-
-
-
-
-
-
-<div class="d-flex justify-content-between">
-  <h2 class="h2-title-recommended">Categorias</h2>
-  <a class="btn-see-more">Ver todas as categorias</a>
+<h2 class="h2-title-recommended">Categorias</h2>
+<div class="section-categories d-flex justify-content-between text-light mb-5 row">
+    <a class="btn-is-category btn d-flex flex-column justify-content-center col-2">
+      <i class="bi bi-controller"></i>
+      <span>Jogos</span>
+    </a>
+    <a class="btn-is-category btn d-flex flex-column justify-content-center col-2">
+      <i class="bi bi-box2-heart"></i>
+      <span>Gift Cards</span>
+    </a>
+    <a class="btn-is-category btn d-flex flex-column justify-content-center col-2">
+      <i class="bi bi-gift"></i>
+      <span>Game Cards</span>
+    </a>
+    <a class="btn-is-category btn d-flex flex-column justify-content-center col-2">
+      <i class="bi bi-steam"></i>
+      <span>Plataformas Gamers</span>
+    </a>
+    <a class="btn-is-category btn d-flex flex-column justify-content-center col-2">
+      <i class="bi bi-bag"></i>
+      <span>Lojas Mobile</span>
+    </a>
+    <a class="btn-is-category btn d-flex flex-column justify-content-center col-2">
+      <i class="bi bi-key"></i>
+      <span>Chaves de Produto</span>
+    </a>
+    <a class="btn-is-category btn d-flex flex-column justify-content-center col-2">
+      <i class="bi bi-wallet2"></i>
+      <span>Vales</span>
+    </a>
+    <a class="btn-is-category btn d-flex flex-column justify-content-center col-2">
+      <i class="bi bi-phone"></i>
+      <span>Recargas de Celular</span>
+    </a>
+    <a class="btn-is-category btn d-flex flex-column justify-content-center col-2">
+      <i class="bi bi-filetype-exe"></i>
+      <span>Softwares</span>
+    </a>
+    <a class="btn-is-category btn d-flex flex-column justify-content-center col-2">
+      <i class="bi bi-cast"></i>
+      <span>Recargas de Streaming</span>
+    </a>
+    <a class="btn-is-category btn d-flex flex-column justify-content-center col-2">
+      <i class="bi bi-cash"></i>
+      <span>Cupons</span>
+    </a>
+    <a class="btn-is-category btn d-flex flex-column justify-content-center col-2">
+      <i class="bi bi-three-dots"></i>
+      <span>Ver todas</span>
+    </a>
 </div>
 
-<div class="d-flex justify-content-between gap-5 text-light">
-
-  <div class="section-part-recommended col">
-    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
-    <span class="title-card-recommended d-flex flex-column text-center">Steam Wallet</span>
-    <div class="div-description-card d-flex flex-column">
-      <span>Gift Card - €5 EUR</span>
-    </div>
-    <div class="div-info-card d-flex flex-column">
-      <span>Europa</span>
-      <span>Por R$30,99</span>
-      <button class="btn-iwant-it fs-5">Quero este!</button>
-    </div>
-  </div>
-
-  <div class="section-part-recommended col">
-    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
-    <span class="title-card-recommended d-flex flex-column text-center">Roblox</span>  
-    <div class="div-description-card d-flex flex-column">
-      <span>1000 Robux</span>
-    </div>
-    <div class="div-info-card d-flex flex-column">
-      <span>Mundial</span>
-      <span>Por R$59,99</span>
-      <button class="btn-iwant-it fs-5">Quero este!</button>
-    </div>
-  </div>
-
-  <div class="section-part-recommended col">
-    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
-    <span class="title-card-recommended d-flex flex-column text-center">Windows Product Key</span>
-    <div class="div-description-card d-flex flex-column">
-      <span>Windows 11 Home</span>
-    </div>
-    <div class="div-info-card d-flex flex-column">
-      <span>Mundial</span>
-      <span>Por R$120,98</span>
-      <button class="btn-iwant-it fs-5">Quero este!</button>
-    </div>
-  </div>
-
-  <div class="section-part-recommended col">
-    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
-    <span class="title-card-recommended d-flex flex-column text-center">Discord</span>  
-    <div class="div-description-card d-flex flex-column">
-      <span>3 Months (PRO)</span>
-    </div>
-    <div class="div-info-card d-flex flex-column">
-      <span>Europa</span>
-      <span>Por R$99,99</span>
-      <button class="btn-iwant-it fs-5">Quero este!</button>
-    </div>
-  </div>
-
-  <div class="section-part-recommended col">
-    <img src="../task4/img/mini-cards/mini_card_steam.png" alt="steam mini card" style="max-width: 100%;"></img>
-    <span class="title-card-recommended d-flex flex-column text-center">Discord</span>  
-    <div class="div-description-card d-flex flex-column">
-      <span>6 Months (PRO)</span>
-    </div>
-    <div class="div-info-card d-flex flex-column">
-      <span>Europa</span>
-      <span>Por R$176,80</span>
-      <button class="btn-iwant-it fs-5">Quero este!</button>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
+<!------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------->
 
 </div> <!-- DIV DO CONTAINER -->
 
